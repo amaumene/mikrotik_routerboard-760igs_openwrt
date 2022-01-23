@@ -60,10 +60,6 @@ jobs:
           This release is based on OpenWrt snapshot ${{ env.OPENWRT_VERSION }}.
           
           Type1 is built with these packages: "${{ env.PACKAGES_TYPE1 }}"
-          
-          Type2 is built with these packages: "${{ env.PACKAGES_TYPE2 }}"
-          
-          Type3 is built with these packages: "${{ env.PACKAGES_TYPE3 }}"
         draft: false
         prerelease: false
 
