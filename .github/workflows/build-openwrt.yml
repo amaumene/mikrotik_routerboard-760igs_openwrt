@@ -11,7 +11,7 @@ env:
   BOARD: "ramips"
   SUBTARGET: "mt7621"
   PROFILE: "mikrotik_routerboard-760igs"
-  PACKAGES_TYPE1: "luci iperf3 mtr iwinfo kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
+  PACKAGES_TYPE1: "crowdsec-firewall-bouncer crowdsec luci mtr kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
 
 jobs:
   build:
